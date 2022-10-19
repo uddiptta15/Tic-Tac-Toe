@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
     
 }
 .line{
@@ -11,9 +12,10 @@
     /* justify-content: center; */
 }
 button{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     margin: 2px;
+    background-color: rgb(75, 73, 73);
     /* padding: 32px; */
 }
 .red{
@@ -24,16 +26,33 @@ button{
 }
 #container {
     max-width: fit-content;
-    margin: auto;
+    background-color: rgba(232, 249, 249, 0.846);
+    padding: 10px;
+
 }
 header{
-    max-width: fit-content;
-    padding: 7px;
-    margin: auto;
+    
+    padding: 18px;
+    
     background-color: aqua;
 }
 #result{
     max-width: fit-content;
     margin: auto;
     padding-top: 30px;
+}
+#user{
+    padding: 9px;
+}
+#image{
+    display: none;
+    max-width: fit-content;
+    margin: auto;
+}
+#refresh{
+    border: 2px solid rgb(21, 21, 21);
+    width: fit-content;
+    padding: 3px;
+    background-color: rgb(197, 188, 188);
+    border-radius: 9px;
 }
