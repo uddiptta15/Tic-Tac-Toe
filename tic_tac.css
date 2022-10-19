@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+button{
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    /* padding: 32px; */
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+#container {
+    max-width: fit-content;
+    margin: auto;
+}
+header{
+    max-width: fit-content;
+    padding: 7px;
+    margin: auto;
+    background-color: aqua;
+}
+#result{
+    max-width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+}
